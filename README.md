@@ -7,7 +7,7 @@ Use this repository to download historical OHLC crypto price data at **any resol
 
 - This dataset contains Open-High-Low-Close data for 1926 crypto currency tokens.
 - Token prices are denominated in dolalrs.
-- The data is downloaded **for free** from Syve using following endpoint https://syve.readme.io/reference/erc20-prices-usd.
+- The data is downloaded **for free** from Syve (https://www.syve.ai/) using following endpoint https://syve.readme.io/reference/erc20-prices-usd.
 - The tokens that were chosen were the top according trading activity on Ethereum based DEXs (e.g. Uniswap).
 
 ## Getting started
@@ -17,6 +17,7 @@ Getting started requires minimal setup. It's simply a matter of downloading the 
 ```
 REPO_DIR=$HOME
 python3 -m venv venv
+source venv/bin/activate
 pip install -r $REPO_DIR/requirements.txt
 ```
 
@@ -26,6 +27,7 @@ Note: Feel free to choose another location for $REPO_DIR. `$HOME` is just my pre
 
 ```
 cd $REPO
+source venv/bin/activate
 python download.py --ohlc --resolution 1m
 ```
 
