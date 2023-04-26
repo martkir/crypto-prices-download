@@ -1,6 +1,8 @@
 # crypto-prices-download
 For downloading historical 1min resolution OHLC crypto price data
 
+(For questions you can DM me on Twitter: https://twitter.com/martkiro)
+
 ## About
 
 Use this repository to download historical OHLC crypto price data at **any resolution** (1min, 5min, 15min etc.).
